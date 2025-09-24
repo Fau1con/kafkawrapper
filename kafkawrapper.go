@@ -59,7 +59,7 @@ func (c *Consumer) Commit(ctx context.Context, message kgo.Message) error {
 	return c.reader.CommitMessage(ctx, message)
 }
 
-type ComandMessage struct {
+type CommandMessage struct {
 	RequestID string            `json:request_id"`
 	Path      string            `json:"path"`
 	Query     map[string]string `json:"query"`
