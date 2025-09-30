@@ -1,4 +1,4 @@
-module kafkawrapper
+module github.com/Fau1con/kafkawrapper
 
 go 1.24.2
 
